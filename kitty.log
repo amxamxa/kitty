@@ -1,0 +1,137 @@
+kitty 0.34.1 created by Kovid Goyal
+Linux nixos 6.6.43 #1-NixOS SMP PREEMPT_DYNAMIC Sat Jul 27 09:34:11 UTC 2024 x86_64
+
+<<< Welcome to NixOS 24.05.3485.05405724efa1 (x86_64) - /dev/tty >>>
+
+Run 'nixos-help' for the NixOS manual.
+
+DISTRIB_CODENAME=uakari
+DISTRIB_DESCRIPTION="NixOS 24.05 (Uakari)"
+DISTRIB_ID=nixos
+DISTRIB_RELEASE="24.05"
+LSB_VERSION="24.05 (Uakari)"
+Running under: X11
+Frozen: False
+Paths:
+  kitty: /nix/store/sj16xvc4fcccklav752x3zd4j9f3xmfm-kitty-0.34.1/bin/kitty
+  base dir: /nix/store/sj16xvc4fcccklav752x3zd4j9f3xmfm-kitty-0.34.1/lib/kitty
+  extensions dir: /nix/store/sj16xvc4fcccklav752x3zd4j9f3xmfm-kitty-0.34.1/lib/kitty/kitty
+  system shell: /run/current-system/sw/bin/zsh
+Loaded config files:
+  /home/mxxkee/.config/kitty/kitty.conf
+
+Config options different from defaults:
+active_tab_font_style         (True, False)
+background_blur               32
+background_opacity            0.95
+bold_italic_font              ProggyClean Nerd Font Mono
+copy_on_select                clipboard
+cursor_beam_thickness         9.0
+cursor_blink_interval         0.5
+cursor_shape                  2
+cursor_stop_blinking_after    66.0
+cursor_underline_thickness    4.0
+enabled_layouts               ['vertical']
+focus_follows_mouse           True
+font_family                   kitty +kitten 	Agave Nerd Font Mono
+font_features:
+{'Agave-Nerd-Font-Mono': ('+ss02', '+dlig', '-calt'),
+ 'FiraCode-Bold': ('+zero',),
+ 'FiraCode-Retina': ('+zero', '+onum'),
+ 'GeistMono-Nerd-Font-Mono': ('+liga', '+calt', '+zero'),
+ 'Hack-Nerd-Font-Mono': ('+zero', '+tnum', '+calt'),
+ 'HackNFM-Regular': ('+zero', '+onum'),
+ 'TT2020StyleB-Regular': ('-liga', '+calt'),
+ 'UnifontMedium': ('+isol', '-medi', '-fina', '-init'),
+ 'VictorMono-Nerd-Font-Mono': ('+onum', '+ss01', '-liga')}
+font_size                     14.0
+inactive_tab_font_style       (False, True)
+italic_font                   TT2020 Style E Italic
+modify_font:
+    baseline 3
+    cell_height -2
+    cell_width 80%
+    strikethrough_position 2
+    underline_position -2
+    underline_thickness 150%
+narrow_symbols:
+{(57504, 57507): 1, (57536, 57543): 1}
+resize_in_steps               True
+scrollback_lines              4000
+scrollback_pager_history_size 134217728
+shell_integration             frozenset({'enabled'})
+show_hyperlink_targets        True
+tab_activity_symbol           \u1f9e8
+tab_bar_align                 center
+tab_bar_edge                  1
+tab_separator                 -
+tab_title_template            {fmt.fg.green}{bell_symbol}{activity_symbol}{fmt.fg.tab}{title}
+update_check_interval         24.0
+wheel_scroll_min_lines        3
+window_logo_path              /home/mxxkee/.config/kitty/./monster-baby_speia-lq.png
+Added shortcuts:
+	ctrl+n →  launch --location=neighbor
+	super+enter →  launch --cwd=current
+Changed shortcuts:
+	kitty_mod+q →  close_window
+Colors:
+	active_tab_background         #243a20   
+	active_tab_foreground         #abfb5a   
+	background                    #0d0d1b   
+	color0                        #282828   
+	color1                        #ca1444   
+	color10                       #5a87b1   
+	color11                       #9c61ab   
+	color12                       #9a77b1   
+	color13                       #f2a297   
+	color14                       #f4436f   
+	color15                       #ebdbb2   
+	color2                        #789aba   
+	color3                        #b3879f   
+	color4                        #94469b   
+	color5                        #cb6fa1   
+	color6                        #fb6e93   
+	color7                        #cf98c1   
+	color8                        #98218e   
+	color9                        #cb515d   
+	cursor                        #ff0017   
+	cursor_text_color             #cc3500   
+	foreground                    #ccccce   
+	inactive_tab_background       #390c49   
+	inactive_tab_foreground       #8f18ba   
+	selection_background          #002a3a   
+	selection_foreground          #0d0f18   
+	tab_bar_margin_color          #8f18ba   
+	url_color                     #b7f274   
+
+Important environment variables seen by the kitty process:
+	PATH                                /nix/store/sj16xvc4fcccklav752x3zd4j9f3xmfm-kitty-0.34.1/bin:/nix/store/d4xp56gxci5ssajr3qsdv6z9hb92l62p-imagemagick-7.1.1-35/bin:/nix/store/d2hxg9l2k4n0kykcxiqnn5ch9wbp25g2-ncurses-6.4-dev/bin:/home/mxxkee/bin:/run/wrappers/bin:/home/mxxkee/.nix-profile/bin:/home/mxxkee/.local/state/nix/profile/bin:/home/mxxkee/.local/state/nix/profile/bin:/etc/profiles/per-user/mxxkee/bin:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin
+	LANG                                de_DE.UTF-8
+	KITTY_CONFIG_DIRECTORY              /home/mxxkee/.config/kitty
+	EDITOR                              micro
+	SHELL                               /run/current-system/sw/bin/zsh
+	DISPLAY                             :0
+	USER                                mxxkee
+	XDG_CONFIG_DIRS                     /nix/store/iqcmhflksc4lpxc1asvyzazgr13hpxbh-cinnamon-settings-daemon-6.0.0/etc/xdg:/nix/store/iqcmhflksc4lpxc1asvyzazgr13hpxbh-cinnamon-settings-daemon-6.0.0/etc/xdg:/etc/xdg:/home/mxxkee/.nix-profile/etc/xdg:/home/mxxkee/.local/state/nix/profile/etc/xdg:/home/mxxkee/.local/state/nix/profile/etc/xdg:/etc/profiles/per-user/mxxkee/etc/xdg:/nix/var/nix/profiles/default/etc/xdg:/run/current-system/sw/etc/xdg
+	LC_ADDRESS                          de_DE.UTF-8
+	LC_NAME                             de_DE.UTF-8
+	XDG_DATA_HOME                       /home/mxxkee/.local/share
+	XDG_CONFIG_HOME                     /home/mxxkee/.config
+	LC_MONETARY                         de_DE.UTF-8
+	XDG_SEAT                            seat0
+	XDG_SESSION_DESKTOP                 cinnamon
+	XDG_SESSION_TYPE                    x11
+	LC_PAPER                            de_DE.UTF-8
+	XDG_CURRENT_DESKTOP                 X-Cinnamon
+	XDG_CACHE_HOME                      /home/mxxkee/.cache
+	XDG_SESSION_CLASS                   user
+	LC_IDENTIFICATION                   de_DE.UTF-8
+	LC_TELEPHONE                        de_DE.UTF-8
+	LC_MEASUREMENT                      de_DE.UTF-8
+	XDG_VTNR                            2
+	XDG_SESSION_ID                      5
+	XDG_STATE_HOME                      /home/mxxkee/.local/state
+	XDG_RUNTIME_DIR                     /run/user/1003
+	LC_TIME                             de_DE.UTF-8
+	XDG_DATA_DIRS                       /nix/store/iszyzl590kl9lbml0g2ylxynvhnh3dn0-cinnamon-desktop-6.0.0/share:/nix/store/6jfw3535wm3i71qj9bpkfzyzr70khb79-cinnamon-session-6.0.4/share:/nix/store/20nf31hpkz9cj5gxa7ykj25i9xxz0642-gsettings-desktop-schemas-46.0/share/gsettings-schemas/gsettings-desktop-schemas-46.0:/nix/store/mb89v8ya8xn0pbcd9pz4ghgidlkdyy21-gtk+3-3.24.42/share/gsettings-schemas/gtk+3-3.24.42:/nix/store/v5m87yns7hf5xg7gm3rhh4r8piivbn16-pulseaudio-17.0/share/gsettings-schemas/pulseaudio-17.0:/nix/store/iszyzl590kl9lbml0g2ylxynvhnh3dn0-cinnamon-desktop-6.0.0/share/gsettings-schemas/cinnamon-desktop-6.0.0:/nix/store/pyhxjcxczar8kknfii1ahkkscfh5n6yz-xapp-2.8.2/share/gsettings-schemas/xapp-2.8.2:/nix/store/iqcmhflksc4lpxc1asvyzazgr13hpxbh-cinnamon-settings-daemon-6.0.0/share/gsettings-schemas/cinnamon-settings-daemon-6.0.0:/nix/store/6jfw3535wm3i71qj9bpkfzyzr70khb79-cinnamon-session-6.0.4/share/gsettings-schemas/cinnamon-session-6.0.4:/nix/store/iszyzl590kl9lbml0g2ylxynvhnh3dn0-cinnamon-desktop-6.0.0/share:/nix/store/6jfw3535wm3i71qj9bpkfzyzr70khb79-cinnamon-session-6.0.4/share:/nix/store/20nf31hpkz9cj5gxa7ykj25i9xxz0642-gsettings-desktop-schemas-46.0/share/gsettings-schemas/gsettings-desktop-schemas-46.0:/nix/store/mb89v8ya8xn0pbcd9pz4ghgidlkdyy21-gtk+3-3.24.42/share/gsettings-schemas/gtk+3-3.24.42:/nix/store/v5m87yns7hf5xg7gm3rhh4r8piivbn16-pulseaudio-17.0/share/gsettings-schemas/pulseaudio-17.0:/nix/store/iszyzl590kl9lbml0g2ylxynvhnh3dn0-cinnamon-desktop-6.0.0/share/gsettings-schemas/cinnamon-desktop-6.0.0:/nix/store/pyhxjcxczar8kknfii1ahkkscfh5n6yz-xapp-2.8.2/share/gsettings-schemas/xapp-2.8.2:/nix/store/iqcmhflksc4lpxc1asvyzazgr13hpxbh-cinnamon-settings-daemon-6.0.0/share/gsettings-schemas/cinnamon-settings-daemon-6.0.0:/nix/store/6jfw3535wm3i71qj9bpkfzyzr70khb79-cinnamon-session-6.0.4/share/gsettings-schemas/cinnamon-session-6.0.4:/nix/store/416cpsgixy418yrha81v594vkq8dbs9v-caribou-0.4.21/share:/nix/store/0gcfmczwa2bm8hqv76a043kjza4zsmfb-cinnamon-common-6.0.4/share:/nix/store/20nf31hpkz9cj5gxa7ykj25i9xxz0642-gsettings-desktop-schemas-46.0/share/gsettings-schemas/gsettings-desktop-schemas-46.0:/nix/store/mb89v8ya8xn0pbcd9pz4ghgidlkdyy21-gtk+3-3.24.42/share/gsettings-schemas/gtk+3-3.24.42:/nix/store/dzp226y8dc0s3cl3x5sv4q1akraqw2lg-cinnamon-control-center-6.0.1/share/gsettings-schemas/cinnamon-control-center-6.0.1:/nix/store/v5m87yns7hf5xg7gm3rhh4r8piivbn16-pulseaudio-17.0/share/gsettings-schemas/pulseaudio-17.0:/nix/store/iszyzl590kl9lbml0g2ylxynvhnh3dn0-cinnamon-desktop-6.0.0/share/gsettings-schemas/cinnamon-desktop-6.0.0:/nix/store/m468cs6cchpcql3lgi9j8f0nnyrv2xj4-evolution-data-server-3.52.2/share/gsettings-schemas/evolution-data-server-3.52.2:/nix/store/80g2nararxr62n9dkycl2hm19k77i40c-muffin-6.0.1/share/gsettings-schemas/muffin-6.0.1:/nix/store/2qj6z64m8fp8qwzjrbwvb3dpnfwyjbbc-libgnomekbd-3.28.1/share/gsettings-schemas/libgnomekbd-3.28.1:/nix/store/416cpsgixy418yrha81v594vkq8dbs9v-caribou-0.4.21/share/gsettings-schemas/caribou-0.4.21:/nix/store/pyhxjcxczar8kknfii1ahkkscfh5n6yz-xapp-2.8.2/share/gsettings-schemas/xapp-2.8.2:/nix/store/mpzbzlapq8q07azbjfgbckjycqvn3lzv-nemo-6.0.2/share/gsettings-schemas/nemo-6.0.2:/nix/store/g4w2qybq6y1jddyz5b6y1m3zng5kxag8-libnma-1.10.6/share/gsettings-schemas/libnma-1.10.6:/nix/store/n1iq3syiagqvg02ydakjsvlswsi5y764-gnome-online-accounts-3.50.2/share/gsettings-schemas/gnome-online-accounts-3.50.2:/nix/store/0gcfmczwa2bm8hqv76a043kjza4zsmfb-cinnamon-common-6.0.4/share/gsettings-schemas/cinnamon-common-6.0.4:/nix/store/rw9kjimhg9kzkrirl2fvzv5jdnw80hzb-desktops/share:/home/mxxkee/.nix-profile/share:/home/mxxkee/.local/state/nix/profile/share:/home/mxxkee/.local/state/nix/profile/share:/etc/profiles/per-user/mxxkee/share:/nix/var/nix/profiles/default/share:/run/current-system/sw/share
+	LC_NUMERIC                          de_DE.UTF-8
