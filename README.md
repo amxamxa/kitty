@@ -1,13 +1,13 @@
 ## Sample kitty.conf
-to edit Config:
+
+**add to your zsh/bashrc-File:**
 ```sh
-        KITTYconf='echo -e "\t${PINK}Öffne kitty Konfigu
-         rationsdatei${RESET}" &&  gnome-text-editor --st andalone --ignore-session "$XDG_CONFIG_HOME/kitty/kitty.conf" | micro -filetype zsh "$XDG_CONFIG_HOME/kitty/kitty.conf"'
+KITTYconf='echo -e "\t${PINK}Öffne kitty Konfigurationsdatei${RESET}" &&  gnome-text-editor --standalone --ignore-session "$XDG_CONFIG_HOME/kitty/kitty.conf" | micro -filetype zsh "$XDG_CONFIG_HOME/kitty/kitty.conf"'
          
-         KITTYmap='echo -e "\t${PINK}Zeige alle Tastaturbelegungen (map) in der kitty.conf${RESET}" && bap-NoComment "$KITTY_CONFIG_DIRECTORY/kitty.conf"| grep "map"'
-         Kbind=KITTYmap
-         Kconf=KITTYconf
-         Kmap=KITTYmap
+KITTYmap='echo -e "\t${PINK}Zeige alle Tastaturbelegungen (map) in der kitty.conf${RESET}" && bap-NoComment "$KITTY_CONFIG_DIRECTORY/kitty.conf"| grep "map"'
+Kbind=KITTYmap
+Kconf=KITTYconf
+Kmap=KITTYmap
 ```
 
 
@@ -31,8 +31,11 @@ text
 
 ~/share/kitty/
 ├── kitty.conf           (Hauptkonfiguration)
+
 └── kitty.d/
+
     ├── themes/
+    
     │   ├── dark.conf
     │   └── light.conf
     └── keybinds.conf
