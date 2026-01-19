@@ -2,12 +2,19 @@
 
 **add to your zsh/bashrc-File:**
 ```sh
-KITTYconf='echo -e "\t${PINK}Öffne kitty Konfigurationsdatei${RESET}" &&  gnome-text-editor --standalone --ignore-session "$XDG_CONFIG_HOME/kitty/kitty.conf" | micro -filetype zsh "$XDG_CONFIG_HOME/kitty/kitty.conf"'
-         
-KITTYmap='echo -e "\t${PINK}Zeige alle Tastaturbelegungen (map) in der kitty.conf${RESET}" && bap-NoComment "$KITTY_CONFIG_DIRECTORY/kitty.conf"| grep "map"'
-Kbind=KITTYmap
-Kconf=KITTYconf
-Kmap=KITTYmap
+# kitty konfig
+alias KITTYconf='echo -e "\tÖffne kitty Konfigurationsdatei" && \
+gnome-text-editor --standalone --ignore-session \
+"$XDG_CONFIG_HOME/kitty/kitty.conf" | \
+micro -filetype sh "$XDG_CONFIG_HOME/kitty/kitty.conf"'
+alias Kconf=KITTYconf
+
+
+# kitty shortcuts         
+alias KITTYmap='echo -e "\tZeige alle Shortcuts (map) der kitty.conf" && \
+bap-NoComment "$KITTY_CONFIG_DIRECTORY/kitty.conf"| grep "map"'
+alias Kbind=KITTYmap
+alias Kmap=KITTYmap
 ```
 
 
