@@ -1,4 +1,4 @@
-## Sample kitty.conf
+## kitty.conf
 
 **add to your zsh/bashrc-File:**
 ```sh
