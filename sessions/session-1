@@ -1,0 +1,10 @@
+# Set the layout for the current tab
+layout tall
+# Set the working directory for windows in the current tab
+cd ~/path/to/myproject
+# Create the "main" window and run an editor in it to edit the project files
+launch --title "Edit My Project" /usr/bin/nvim
+# Create a side window to run a shell to build or test project
+launch --title "Build My Project"
+# Create another side window to keep an eye on some useful log file
+launch --title "Log for my project" /usr/bin/tail -f /path/to/project/log/file
